@@ -35,7 +35,9 @@
                     <li>1/4 cup butter, cubed</li>
                     <li>1 1/2 tsp ground cinnamon</li>
                 </ul>
+                </div><!--close for ingredients-->
                 <br>
+                <div id="directions">
                 <h3>Directions</h3>
                     <ol>
                         <li>Preheat oven to 400 degrees F (200 degrees C). Grease muffin cups or line with muffin liners.</li>
@@ -43,7 +45,7 @@
                         <li>Combine 1 1/2 cups flour, 3/4 cup sugar, salt and baking powder. Place vegetable oil into a 1 cup measuring cup; add the egg and add enough milk to reach the 1-cup mark. Mix this with flour mixture. Fold in blueberries. Fill muffin cups right to the top, and sprinkle with crumb topping mixture.</li>
                         <li>Bake for 20 to 25 minutes in the preheated oven, or until done.
                     </ol>
-            </div><!--close for ingredients-->
+            </div><!--close for directions-->
             <div id="nutrion">
                 <h3>Nutrition Facts</h3>
                 <p>383 calories</p>
