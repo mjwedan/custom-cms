@@ -151,10 +151,13 @@ main{
 
 /* Recipe Submission Form*/
 
+.recipe-submissions-form {
+  box-sizing: border-box;
+}
 
-.recipe-submissions-form,
 .recipe-submissions-form input[type=text], 
-.recipe-submissions-form input[type=date], {
+.recipe-submissions-form input[type=date], 
+.recipe-submissions-form textarea{
   border: 1px solid #dddddd;
   border-radius: 15px;
   padding: 10px;
