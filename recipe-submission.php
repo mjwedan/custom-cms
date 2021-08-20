@@ -9,7 +9,7 @@
         <main>
         <div id="form">
                 <h2>Submit a New Recipe!</h2>
-                <form action="submit-recipe.php" method="post">
+                <form class="recipe-submissions-form" action="submit-recipe.php" method="post">
 <label for="title">Name of Recipe</label><br>
 <input type="text" id="title" name="title" placeholder="title"></input><br><br>
 <label for="author">Author</label><br>
@@ -35,7 +35,7 @@
     editor.setTheme("ace/theme/eclipse");
     editor.session.setMode("ace/mode/javascript");
 </script>
-<button type="submit" value="Submit">Submit</button>
+<button type="submit" value="Submit">SUBMIT</button>
 </form>
 
         </main>

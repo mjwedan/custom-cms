@@ -1,11 +1,208 @@
-#header {
+/* poppins-200 - latin-ext_latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-300 - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-300italic - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-regular - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-italic - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500italic - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-600 - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-800 - latin-ext_latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-ext_latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-ext_latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'helvetica', 'arial', 'sans-serif;';
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+/* Header */
+
+header{
+    background-color: #47556A;
+    height: 110px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #47556A;
+    height: 80px;
     text-align: center;
 }
 
-#nav {
-    text-align: center;
+nav a{
+    font-size: .9em;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 13px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
 }
 
-#footer {
+nav a:hover{
+    cursor: pointer;
+    background-color: #5c708d;
+    }
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 10px 20px;
+}
+
+/* Main */
+
+main{
+    min-height: calc(100vh - 300px);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+/* Recipe Submission Form*/
+
+
+.recipe-submissions-form,
+.recipe-submissions-form input[type=text], 
+.recipe-submissions-form input[type=date], {
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+}
+
+
+.recipe-submissions-form button{
+  height: 40px;
+  width: 150px;
+  background-color: #88AB75;
+  font-size: .9em;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: none;
+}
+
+#gray-content-box {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+
+/* Ace editor */
+
+#editor { 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 300px;
+}
+
+
+/* Footer */
+
+footer{
+    height: 40px;
+    padding: 25px;
+    background-color: #47556A;
+    color: #ffffff;
     text-align: center;
 }
