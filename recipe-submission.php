@@ -18,8 +18,6 @@
 <input type="date" id="date" name="date" placeholder="Date"></input><br><br>
 <label for="briefdescription">Brief Description</label><br>
 <input type="text" id="briefdescription" name="briefdescription" placeholder="briefdescription"></input><br><br>
-<label for="image">Upload an Image</label><br>
-<input type="file" id="image" name="image" placeholder="image"></input><br><br>
 <label for="ingredients">Ingredients</label><br>
 <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea> <br><br>
 <label for="directions">Directions</label><br>
@@ -27,14 +25,6 @@
 <label for="nutrition">Nutrition Facts</label><br>
 <textarea id="nutrition" name="nutrition" rows="4" cols="50"></textarea> 
 
-<div id="editor"></div>
-
-<script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
-<script>
-    var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/eclipse");
-    editor.session.setMode("ace/mode/javascript");
-</script>
 <button type="submit" value="Submit">SUBMIT</button>
 </form>
 

@@ -36,8 +36,6 @@
                 <br>
                 <div><?php echo $postDetails ["date"]; ?></div>
                 <br>
-                <div><?php echo $postDetails ["image"]; ?></div>
-                <br>
                 <h3>Ingredients</h3>
                 <div><?php echo $postDetails ["ingredients"]; ?></div>
                 <br>
