@@ -28,16 +28,13 @@
                 $postDetails = getPostDetailsFromDatabase();
                 ?>
                 <h2> <?php echo $postDetails["title"]; ?> </h2>
-                <div id ="briefdescription"> <?php echo $postDetails ["briefdescription"]; ?> </div>
-                <div id ="author"> <?php echo $postDetails ["author"]; ?> </div>
-                <div id ="date"> <?php echo $postDetails ["date"]; ?> </div>
-                <div id ="image"> <?php echo $postDetails ["image"]; ?> </div>
+                <div> <?php echo $postDetails ["briefdescription"]; ?> </div>
+                <div> <?php echo $postDetails ["author"]; ?> </div>
+                <div> <?php echo $postDetails ["date"]; ?> </div>
+                <div> <?php echo $postDetails ["image"]; ?> </div>
                 <h3> <?php echo $postDetails ["ingredients"]; ?> </h3>
-                <div id ="ingredients"> <?php echo $postDetails ["ingredients"]; ?> </div>
                 <h3> <?php echo $postDetails ["directions"]; ?> </h3>
-                <div id ="directions"> <?php echo $postDetails ["directions"]; ?> </div>
                 <h3> <?php echo $postDetails ["nutrition"]; ?> </h3>
-                <div id ="nutrition"> <?php echo $postDetails ["nutrition"]; ?> </div>
         </main>
     </div><!--close for main-->
     <?php include 'footer.php' ?>

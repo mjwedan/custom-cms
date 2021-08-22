@@ -19,7 +19,7 @@
 <label for="briefdescription">Brief Description</label><br>
 <input type="text" id="briefdescription" name="briefdescription" placeholder="briefdescription"></input><br><br>
 <label for="image">Upload an Image</label><br>
-<input type="image" id="image" name="image" placeholder="image"></input><br><br>
+<input type="file" id="image" name="image" placeholder="image"></input><br><br>
 <label for="ingredients">Ingredients</label><br>
 <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea> <br><br>
 <label for="directions">Directions</label><br>
