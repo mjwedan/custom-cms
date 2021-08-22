@@ -27,14 +27,23 @@
 
                 $postDetails = getPostDetailsFromDatabase();
                 ?>
-                <h2> <?php echo $postDetails["title"]; ?> </h2>
-                <div> <?php echo $postDetails ["briefdescription"]; ?> </div>
-                <div> <?php echo $postDetails ["author"]; ?> </div>
-                <div> <?php echo $postDetails ["date"]; ?> </div>
-                <div> <?php echo $postDetails ["image"]; ?> </div>
-                <h3> <?php echo $postDetails ["ingredients"]; ?> </h3>
-                <h3> <?php echo $postDetails ["directions"]; ?> </h3>
-                <h3> <?php echo $postDetails ["nutrition"]; ?> </h3>
+                <h2><?php echo $postDetails["title"]; ?></h2>
+                <div><?php echo $postDetails ["briefdescription"]; ?></div>
+                <br>
+                <div><?php echo $postDetails ["author"]; ?></div>
+                <br>
+                <div><?php echo $postDetails ["date"]; ?></div>
+                <br>
+                <div><?php echo $postDetails ["image"]; ?></div>
+                <br>
+                <h3>Ingredients</h3>
+                <div><?php echo $postDetails ["ingredients"]; ?></div>
+                <br>
+                <h3>Directions</h3>
+                <div><?php echo $postDetails ["directions"]; ?></div>
+                <br>
+                <h3>Nutrition</h3>
+                <div><?php echo $postDetails ["nutrition"]; ?></div>
         </main>
     </div><!--close for main-->
     <?php include 'footer.php' ?>
