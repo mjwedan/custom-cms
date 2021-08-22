@@ -7,8 +7,20 @@
         <?php include 'nav.php' ?>
     <div id="main">
         <main>
+            <?php function getPostTitlesFromDatabase() {
+                $postTitles = array("To Die For Blueberry Muffins", "Tiffany's Chocolate Chip Cookies", "MMMMM...Brownies");
+                return $postTitles;
+            }
+            ?>
+            <br><br><br>
             <ul>
-            <li><a href="post.php">Blueberry Muffins</a></li>
+            <?php
+                $postTitles = getPostTitlesFromDatabase();
+                foreach($postTitles as $postTitle) {
+                    echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
+                    "</a></li>"; 
+                }
+                ?>
             </ul>   
         </main>
     </div><!--close for main-->
