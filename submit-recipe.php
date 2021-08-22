@@ -2,21 +2,18 @@
  
  // get the data to insert into the db
  $title = $_POST["title"];
- $briefdescription = $_POST["briefdescription"];
  $author = $_POST["author"];
- $datepublished = $_POST["datepublished"];
+ $date = $_POST["date"];
+ $briefdescription = $_POST["briefdescription"];
  $image = $_POST["image"];
  $ingredients = $_POST["ingredients"]
- $ingredientdetails = $_POST["ingredientdetails"];
  $directions = $_POST["directions"];
- $directiondetails = $_POST["directiondetails"];
  $nutrition = $_POST ["nutrition"];
- $nutritiondetails = $_POST["nutritiondetails"];
 
  // insert the data with the sql query
- include_once 'db_connect.php';
- $sql="INSERT INTO posts (title, content, author, date) VALUES ('" .     
-     $title . "','" .  $content . "','" . $author . "','" . $date . "')";
+ include_once 'dbconnect.php';
+ $sql="INSERT INTO recipes (title, author, date, briefdescription, image, ingredients, directions, nutrition) VALUES ('" .     
+     $title . "','" .  $author . "','" . $date . "','" . $briefdescription . "','" . $image . "','" . $ingredients . "','" . $directions . "','" . $nutrition ."')";
  $result = mysqli_query($conn, $sql);
  
  // redirect to homepage

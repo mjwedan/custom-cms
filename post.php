@@ -31,6 +31,7 @@
                 <div id ="briefdescription"> <?php echo $postDetails ["briefdescription"]; ?> </div>
                 <div id ="author"> <?php echo $postDetails ["author"]; ?> </div>
                 <div id ="date"> <?php echo $postDetails ["date"]; ?> </div>
+                <div id ="image"> <?php echo $postDetails ["image"]; ?> </div>
                 <h3> <?php echo $postDetails ["ingredients"]; ?> </h3>
                 <div id ="ingredients"> <?php echo $postDetails ["ingredients"]; ?> </div>
                 <h3> <?php echo $postDetails ["directions"]; ?> </h3>
