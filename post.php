@@ -7,6 +7,9 @@
         <?php include 'nav.php' ?>
     <div id="main">
         <main>
+            <br>
+            <br>
+            <br>
             <?php
                 function getPostDetailsFromDatabase() {
                     // Get the post title
@@ -29,8 +32,7 @@
                 ?>
                 <h2><?php echo $postDetails["title"]; ?></h2>
                 <div><?php echo $postDetails ["briefdescription"]; ?></div>
-                <br>
-                <div><?php echo $postDetails ["author"]; ?></div>
+                <div><a href="<?php echo $postDetails ["author"]; ?>">Author Link</a>
                 <br>
                 <div><?php echo $postDetails ["date"]; ?></div>
                 <br>
