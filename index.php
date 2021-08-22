@@ -21,6 +21,7 @@
                 }
                 return $postTitles;
             }
+
             ?>
             <div id="sortable-blog-list">
                  <input class="search" placeholder="Search"/>
@@ -36,6 +37,7 @@
                 ?>
             </ul>
                 </div>
+
         </main>
     </div><!--close for main-->
     <?php include 'footer.php' ?>
