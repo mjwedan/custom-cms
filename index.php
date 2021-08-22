@@ -22,7 +22,10 @@
                 return $postTitles;
             }
             ?>
-            <ul>
+            <div id="sortable-blog-list">
+                 <input class="search" placeholder="Search"/>
+                 <button class="sort" data-sort="title">Sort</button>
+            <ul class="list">
             <?php 
                     $postTitles = getPostTitlesFromDatabase();
 
@@ -32,6 +35,7 @@
                     }
                 ?>
             </ul>
+                </div>
         </main>
     </div><!--close for main-->
     <?php include 'footer.php' ?>
